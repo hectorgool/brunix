@@ -1,0 +1,17 @@
+
+
+1)
+bower install --save  bootstrap-social
+
+2)
+
+
+config/assets/default.js
+
+module.exports = {
+  client: {
+    lib: {
+      css: [
+        'public/lib/bootstrap/dist/css/bootstrap.css',
+        'public/lib/bootstrap/dist/css/bootstrap-theme.css',
+        'public/lib/bootstrap-social/bootstrap-social.css'

@@ -15,3 +15,17 @@ module.exports = {
         'public/lib/bootstrap/dist/css/bootstrap.css',
         'public/lib/bootstrap/dist/css/bootstrap-theme.css',
         'public/lib/bootstrap-social/bootstrap-social.css'
+
+
+base de datos:
+config/env/development.js        
+
+module.exports = {
+  db: {
+    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/brunix-dev',
+    options: {
+
+
+edicion de home page
+
+modules/core/client/views/home.client.view.html    
